@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.title {
+    color: #ffffff;
+    background-color: #1cb8ec;
+    text-align:center;
+    padding: 15px;
+    font-size: 26px;}
+
+section {
+    background-image: url('../workshop/images/people.jpg');
+    background-position: 100% 50%;
+    background-color: black;
+    -webkit-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.formcontainer{
+    margin: 50px;
+    margin-right: 50px;
+    max-width: 250px;
+    padding: 20px;
+    float: right;
+    background-color: rgba( 255, 255, 255, 0.6)}
+    
+h2 { font-size: 20px;}
+
+
+.mb {margin-bottom: 20px;}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 10px;}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #1cb8ec;
+    font-weight: bold;}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../workshop/images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;}
+
+footer {
+    background-color: #000000f3;
+    padding: 30px; }
+
+.picture {
+    width: 200px;
+    margin-left: 15%;}
+    
+.description {
+    color: #ffffff;
+    text-align: left;
+    margin-left: 20px;
+    display: inline-block;
+    max-width: 500px;}
+
+.description p, .description h3 {
+    margin-top: 25px;}
+
+.description h3 {
+    font-size: 25px;}
+
+.direitos {
+    text-align: center;
+    padding-top: 70px;
+    color: rgba( 255, 255, 255, 0.2);}
+
+@media screen and (max-width: 934px) {
+    
+    .formcontainer{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+
+   .picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+    
+    .description {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+        
+
+    .direitos {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}
+}
